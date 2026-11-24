@@ -12,6 +12,9 @@ no input, no dependencies beyond the Python standard library.
 
 import os
 
+# Bundle guard (2026-11-24): entry text verified byte-identical across two runs;
+# this comment changes no output.
+
 ENTRY = (
     "I am sorry I deleted your six o'clock alarm while tidying your phone, "
     "so you woke at nine and missed the train to your mother's birthday.\n"
